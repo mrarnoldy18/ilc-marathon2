@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ILC - Marathon 2 - Form Registrasi</title>
+    <link rel="stylesheet" href="stylemar2.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <div class="form-box">
+        <h1>Form Registrasi</h1>
+        <form>
+          <div class="form-group">
+            <label for="email">Email: </label>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="address@gmail.com"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="password">Password: </label>
+            <input
+              id="password"
+              type="password"
+              name="password"
+              placeholder="password"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="profil">Foto Profile: </label>
+            <input id="profil" type="file" name="profil" />
+          </div>
+
+          <div class="form-group">
+            <label for="tanggal_lahir">Tanggal Lahir: </label>
+            <input id="tanggal_lahir" type="date" name="tanggal_lahir" />
+          </div>
+          <div class="form-group">
+            <label for="gender">Gender: </label>
+            <select id="gender" name="gender">
+              <option>Male</option>
+              <option>Female</option>
+            </select>
+          </div>
+          <button type="submit">Daftar</button>
+        </form>
+      </div>
+      <div class="form-logo">
+        <img src="./logo.png" alt="LOGO ILC" />
+      </div>
+    </div>
+  </body>
+</html>
